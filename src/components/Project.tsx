@@ -9,30 +9,27 @@ const projects = [
     {
       name: "Note Keeper",
       description:
-        "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+        "A simple note keeping web app that allows me to keep track of things that I need to do throughout the day.",
       image: "/notekeeper.png",
-      github: "https://github.com/hqasmei/thankful-thoughts",
-      link: "https://thankfulthoughts.io/",
+      github: "https://github.com/zerieox/Note-Keeper",
     },
     {
       name: "Memory Game",
-      description: "PlatoIO is a to do list app that built using the PERN stack.",
+      description: "A memory game inspired by the simon game, user has to memorize the sequence of colours.",
       image: "/simongame.png",
-      github: "https://github.com/hqasmei/platoio",
-      link: "https://platoio.com/register",
+      github: "https://github.com/zerieox/Simon-Game",
     },
     {
       name: "Drum kit",
       description:
-        "Kator Family Photos is a photos and video digitization service in the LA area.",
+        "A keyboard style drum kit, pressing the indicated keys will trigger drum sounds, useful for creating simple beats",
       image: "/drum.png",
-      github: "https://github.com/hqasmei/katorfamilyphotos",
-      link: "https://katorfamilyphotos.com/",
+      github: "https://github.com/zerieox/Drum-Kit",
     },
   ]
 const Project = () => {
   return (
-<section id = "projects">
+    <section id = "projects">
     <h1 className='text-center font-bold text-4xl'>
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded"></hr>

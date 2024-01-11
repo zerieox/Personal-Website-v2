@@ -5,6 +5,7 @@ const skills = [
     { skill: "Python" },
     { skill: "React" },
     { skill: "C++"},
+    { skill: "MySQL" },
     { skill: "Flask"},
     { skill: "Node.js"},
     {skill: "TypeScript" },
@@ -31,7 +32,7 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        I am a <span className="font-bold">{" self-motivated"}</span> and <span className="font-bold">{"highly ambitious"}</span> individual that is driven with a deep interest in technology,
+                        I am a self-motivated and highly ambitious individual that is driven with a deep interest in technology,
                         particularly in the realms of software development. I have currently have completed 
                         2 relevant internships that is related to my field of software development. 
                     </p>
@@ -44,7 +45,7 @@ const About = () => {
                     <br />
                     <p>
                         Currently I am looking for Summer 2024 internships in Software Development, so feel free to contact me 
-                        at calvin.zhao12321@gmail.com. 
+                        at <span className="font-bold">{" calvin.zhao12321@gmail.com"}</span>. 
                     </p>
                 </div>
                 <div className='md:w-1/2'>

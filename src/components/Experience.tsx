@@ -22,7 +22,7 @@ const expData = [
         description:
           "• Worked on many projects some of which included developing code for a website using Javascript and Flask as well as writing python scripts for various autonomous tasks",
           icon: <Image src={magna} alt="Magna" style={{ width: '70%', height: '70%' }} layout="fixed" />,
-          date: "Jan 2023 - May 2023",
+          date: " Jan 2023 - May 2023 ",
       },
       {
         title: "Software Developer - WENU",
@@ -30,7 +30,7 @@ const expData = [
         description:
           "• Spearheaded the development of a marketplace chat service using Twilio, React, PHP and Figma",
           icon: <Image src={wenueat} alt="Wenu" style={{ width: '100%', height: 'auto' }} />,
-          date: "2019",
+          date: " Sep 2023 - Dec 2023 ",
       },
 ]
 const Experience = () => {
