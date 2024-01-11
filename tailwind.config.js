@@ -11,6 +11,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        sky:{
+          '500': '#0ea5e9'
+        }
+      },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
         fadeIn: "fadeIn 1.5s",
