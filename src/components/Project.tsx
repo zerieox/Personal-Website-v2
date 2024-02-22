@@ -7,6 +7,13 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
     {
+      name: "Expense Tracker",
+      description:
+        "An expense tracker with graph display built with React, Express, and MongoDB",
+      image: "/expense.png",
+      github: "https://github.com/zerieox/Expense-Tracker",
+    },
+    {
       name: "Note Keeper",
       description:
         "A simple note keeping web app that allows me to keep track of things that I need to do throughout the day.",
@@ -19,13 +26,7 @@ const projects = [
       image: "/simongame.png",
       github: "https://github.com/zerieox/Simon-Game",
     },
-    {
-      name: "Drum kit",
-      description:
-        "A keyboard style drum kit, pressing the indicated keys will trigger drum sounds, useful for creating simple beats",
-      image: "/drum.png",
-      github: "https://github.com/zerieox/Drum-Kit",
-    },
+    
   ]
 const Project = () => {
   return (
@@ -41,7 +42,7 @@ const Project = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                   <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                     <div className="mt-8 md:w-1/2">
-                      <Link href = {item.github} target = "_blank">
+                      <Link href = {"https://tofinancialfreedom.vercel.app/" } target = "_blank">
                         <Image 
                                 src={item.image}
                                 alt=""
