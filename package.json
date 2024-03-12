@@ -19,7 +19,6 @@
     "framer-motion": "^10.18.0",
     "next": "^14.0.1",
     "next-themes": "^0.2.1",
-    "node": "^21.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-email": "^1.10.0",
