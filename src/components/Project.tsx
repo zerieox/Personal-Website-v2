@@ -20,7 +20,7 @@ const projects = [
         "A simple note keeping web app that allows me to keep track of things that I need to do throughout the day.",
       image: "/notekeeper.png",
       github: "https://github.com/zerieox/Note-Keeper",
-      link: "https://github.com/zerieox/Note-Keeper"
+      link: "https://github.com/zerieox/Note-Keeper/"
 
     },
     {
@@ -28,7 +28,7 @@ const projects = [
       description: "A memory game inspired by the simon game, user has to memorize the sequence of colours.",
       image: "/simongame.png",
       github: "https://github.com/zerieox/Simon-Game",
-      link: "https://github.com/zerieox/Simon-Game"
+      link: "https://github.com/zerieox/Simon-Game/"
 
     },
     

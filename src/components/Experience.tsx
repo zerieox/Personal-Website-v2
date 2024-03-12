@@ -15,7 +15,14 @@ import wenueat from "../../public/wenu.png"
 import magna from "../../public/magna.png"
 
 const expData = [
-    
+    {
+      title: "Software Developer - WENU",
+      location: "Toronto, ON",
+      description:
+        "• Spearheaded the development of a marketplace chat service using Twilio, React, PHP and Figma",
+        icon: <Image src={wenueat} alt="Wenu" style={{ width: '100%', height: 'auto' }} />,
+        date: " Sep 2023 - Dec 2023 ",
+    },
       {
         title: "Software Developer - Magna",
         location: "Newmarket, ON",
@@ -24,14 +31,7 @@ const expData = [
           icon: <Image src={magna} alt="Magna" style={{ width: '70%', height: '70%' }} layout="fixed" />,
           date: " Jan 2023 - May 2023 ",
       },
-      {
-        title: "Software Developer - WENU",
-        location: "Toronto, ON",
-        description:
-          "• Spearheaded the development of a marketplace chat service using Twilio, React, PHP and Figma",
-          icon: <Image src={wenueat} alt="Wenu" style={{ width: '100%', height: 'auto' }} />,
-          date: " Sep 2023 - Dec 2023 ",
-      },
+      
 ]
 const Experience = () => {
 const { theme } = useTheme();
