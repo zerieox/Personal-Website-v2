@@ -25,29 +25,25 @@ const About = () => {
             <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10'>
                 <div className='md:w-1/2'>
                     <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-                    Introduction</h1>
+                        Introduction
+                    </h1>
                     <p>
-                        Hi, my name is Calvin Zhao and I am currently studying Computer Engineering {" "}
-                        at the Univeristy of Waterloo currently in my third year. 
+                        Hi, I’m Calvin Zhao, a fourth-year Computer Engineering co-op student at the University of Waterloo. I’ve interned at Loblaw Digital, Wenu, and Magna International, where I deployed cloud micro services, built fullstack applications, and optimized data pipelines to deliver measurable impact.
                     </p>
                     <br />
                     <p>
-                        I am a self-motivated and highly ambitious individual that is driven with a deep interest in technology,
-                        particularly in the realms of software development. I have currently have completed 
-                        2 relevant internships that is related to my field of software development. 
+                        I’m driven by a deep curiosity for technology and love turning ideas into production ready software. Some notable projects include an AI-powered booking workflow on Google Cloud, a Twilio backed marketplace chat at Wenu, and a Flask based material prediction app.
                     </p>
                     <br />
                     <p>
-                       Beyond academia, I am deeply passionate about weightlifting and sports like volleyball, swimming, and 
-                       badminton. I love pushing my body to its limits and thrive off the thrill of self improvement, in addition 
-                       I also enjoy playing video games such as League of Legends and various Nintendo games like Pokemon.  
+                        Outside of tech, I push my limits with my body with powerlifting and sports like volleyball and basketball. I also unwind by playing video games, my favourites being Zelda: Breath of the Wild and any of the main line Pokemon games.
                     </p>
                     <br />
                     <p>
-                        Currently I am looking for Summer 2024 internships in Software Development, so feel free to contact me 
-                        at <span className="font-bold">{" calvin.zhao12321@gmail.com"}</span>. 
+                        I’m currently a 4th year student at the University of Waterloo and open to new opportunities feel free to reach out at <span className="font-bold">calvin.zhao12321@gmail.com</span>.
                     </p>
                 </div>
+
                 <div className='md:w-1/2'>
                     <h1 className="text-center text-2xl font-bold mb-6 md:text-left">My Skills</h1>
                     <div className="flex flex-wrap flex-row justify-center md:justify-start">

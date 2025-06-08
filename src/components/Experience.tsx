@@ -13,8 +13,26 @@ import { LuGraduationCap } from "react-icons/lu";
 import { useTheme } from "next-themes"
 import wenueat from "../../public/wenu.png"
 import magna from "../../public/magna.png"
-
+import ld from "../../public/ld.png"
 const expData = [
+    {
+      title: "Software Engineer Intern – Loblaw Digital",
+      location: "Toronto, ON",
+      date: "Jan 2025 – May 2025",
+      description: [
+        "Deployed Python based micro-services on Google Cloud Platform for an appointment booking app leveraging Google Vertex AI’s LLMs to parse 800+ emails/week and automate bookings saving 25 hours weekly.",
+      ],
+      icon: <Image src={ld} alt="loblaw-digital"style={{ width: '70%', height: '70%' }}  />,
+
+    },
+      {
+      title: "Software Developer - WENU",
+      location: "Toronto, ON",
+      description:
+        "Developed a fullstack food delivery workflow (React, TypeScript, Laravel), enabling order placement and real time tracking.",
+        icon: <Image src={wenueat} alt="Wenu" style={{ width: '100%', height: 'auto' }} />,
+        date: " May 2024 - Aug 2024 ",
+    },
     {
       title: "Software Developer - WENU",
       location: "Toronto, ON",
