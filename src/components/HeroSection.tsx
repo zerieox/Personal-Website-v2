@@ -22,6 +22,7 @@ const HeroSection = () => {
                 <p className="text-lg mt-4 mb-6 md:text-2xl">
                 A <span className="font-semibold text-sky-400">Software Developer</span> based in Toronto, Canada. Currently a 
                 Computer Engineering student @University of Waterloo
+                Calvin.zhao12321@gmail.com
                 </p>
                 <Link
                     to="projects"
